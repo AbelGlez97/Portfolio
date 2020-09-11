@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website-Deploy/static/css/main.6f3003bd.chunk.css",
+    "main.js": "/Portfolio-Website-Deploy/static/js/main.827a05d7.chunk.js",
+    "main.js.map": "/Portfolio-Website-Deploy/static/js/main.827a05d7.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website-Deploy/static/js/runtime-main.2f34883c.js",
+    "runtime-main.js.map": "/Portfolio-Website-Deploy/static/js/runtime-main.2f34883c.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/Portfolio-Website-Deploy/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.0a1a7142.chunk.js": "/Portfolio-Website-Deploy/static/js/2.0a1a7142.chunk.js",
+    "static/js/2.0a1a7142.chunk.js.map": "/Portfolio-Website-Deploy/static/js/2.0a1a7142.chunk.js.map",
+    "index.html": "/Portfolio-Website-Deploy/index.html",
+    "precache-manifest.aa6dfaae1d9578c29bcce94113c6dd5e.js": "/Portfolio-Website-Deploy/precache-manifest.aa6dfaae1d9578c29bcce94113c6dd5e.js",
+    "service-worker.js": "/Portfolio-Website-Deploy/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/Portfolio-Website-Deploy/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.6f3003bd.chunk.css.map": "/Portfolio-Website-Deploy/static/css/main.6f3003bd.chunk.css.map",
+    "static/js/2.0a1a7142.chunk.js.LICENSE.txt": "/Portfolio-Website-Deploy/static/js/2.0a1a7142.chunk.js.LICENSE.txt",
+    "static/media/AspNet.png": "/Portfolio-Website-Deploy/static/media/AspNet.6833459b.png",
+    "static/media/Native.png": "/Portfolio-Website-Deploy/static/media/Native.91a6cfff.png",
+    "static/media/React.png": "/Portfolio-Website-Deploy/static/media/React.6e16f555.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f34883c.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.0a1a7142.chunk.js",
+    "static/css/main.6f3003bd.chunk.css",
+    "static/js/main.827a05d7.chunk.js"
+  ]
+}
