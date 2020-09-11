@@ -8,7 +8,7 @@ export const PROJECTS = [
         title: "Porfolio Website",
         subTitle: "Current porfolio website(React)",
         imageSource: React,
-        link: "https://github.com/AbelGlez97/ecommercewebsite",
+        link: "https://github.com/AbelGlez97/Portfolio-Website",
         selected: false
     },
 
