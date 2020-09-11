@@ -17,7 +17,7 @@ class App extends React.Component {
     this.state = {
       title: "Abel Gonzalez",
       headerLinks: [
-        { title: "Home", path: "/" },
+        { title: "Home", path: process.env.PUBLIC_URL + '/' },
         { title: "About", path: "/about" },
         { title: "Contact", path: "/contact" },
       ],
