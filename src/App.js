@@ -38,7 +38,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router >
         <Container className="p-0" fluid={true}>
           <Navbar
             className="border-bottom"
@@ -80,7 +80,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
           <Route
-            path="/"
+            path={process.env.PUBLIC_URL + '/'}
             exact
             render={() => (
               <Home
