@@ -18,7 +18,7 @@ class App extends React.Component {
       title: "Abel Gonzalez",
       headerLinks: [
         { title: "Home", path: process.env.PUBLIC_URL + '/' },
-        { title: "HomePage", path: process.env.PUBLIC_URL + '/Portfolio-Website-Deploy/home' },
+        { title: "HomePage", path: '/Portfolio-Website-Deploy/home' },
         { title: "About", path: "/Portfolio-Website-Deploy/about" },
         { title: "Contact", path: "/Portfolio-Website-Deploy/contact" },
       ],
