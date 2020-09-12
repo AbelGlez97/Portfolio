@@ -18,7 +18,6 @@ class App extends React.Component {
       title: "Abel Gonzalez",
       headerLinks: [
         { title: "Home", path: process.env.PUBLIC_URL + '/' },
-        { title: "HomePage", path: '/home' },
         { title: "About", path: "/about" },
         { title: "Contact", path: "/contact" },
       ],
@@ -58,7 +57,7 @@ class App extends React.Component {
               id="responsive-navbar-nav"
             >
               <Nav className="ml-auto ">
-                <Link className="nav-link" to=  "/home">
+                <Link className="nav-link" to=  "/">
                   Home
                 </Link>
                 <Link className="nav-link " to="/about">
@@ -82,16 +81,6 @@ class App extends React.Component {
           </Navbar>
           <Route
             path={process.env.PUBLIC_URL + '/'}
-            exact
-            render={() => (
-              <Home
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-              />
-            )}
-          />
-           <Route
-            path={'/home'}
             exact
             render={() => (
               <Home
