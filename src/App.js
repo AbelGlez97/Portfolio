@@ -57,7 +57,7 @@ class App extends React.Component {
               id="responsive-navbar-nav"
             >
               <Nav className="ml-auto ">
-                <Link className="nav-link" to=  "/">
+                <Link className="nav-link" to=  {process.env.PUBLIC_URL + '/'}>
                   Home
                 </Link>
                 <Link className="nav-link " to="/about">
