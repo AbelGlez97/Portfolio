@@ -17,10 +17,10 @@ class App extends React.Component {
     this.state = {
       title: "Abel Gonzalez",
       headerLinks: [
-        { title: "Home", path: process.env.PUBLIC_URL + 'abelglez97.github.io/' },
-        { title: "HomePage", path: process.env.PUBLIC_URL + 'abelglez97.github.io/home' },
-        { title: "About", path: "abelglez97.github.io/about" },
-        { title: "Contact", path: "abelglez97.github.io/contact" },
+        { title: "Home", path: process.env.PUBLIC_URL + '/' },
+        { title: "HomePage", path: process.env.PUBLIC_URL + '/Portfolio-Website-Deploy/home' },
+        { title: "About", path: "/Portfolio-Website-Deploy/about" },
+        { title: "Contact", path: "/Portfolio-Website-Deploy/contact" },
       ],
       home: {
         title: "Building ideas into real-life projects",
@@ -58,13 +58,13 @@ class App extends React.Component {
               id="responsive-navbar-nav"
             >
               <Nav className="ml-auto ">
-                <Link className="nav-link" to=  "abelglez97.github.io/home">
+                <Link className="nav-link" to=  "/Portfolio-Website-Deploy/home">
                   Home
                 </Link>
-                <Link className="nav-link " to="abelglez97.github.io/about">
+                <Link className="nav-link " to="/Portfolio-Website-Deploy/about">
                   About
                 </Link>
-                <Link className="nav-link" to="abelglez97.github.io/contact">
+                <Link className="nav-link" to="/Portfolio-Website-Deploy/contact">
                   Contact
                 </Link>
 
@@ -81,7 +81,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
           <Route
-            path={process.env.PUBLIC_URL + 'abelglez97.github.io/'}
+            path={process.env.PUBLIC_URL + '/'}
             exact
             render={() => (
               <Home
@@ -91,7 +91,7 @@ class App extends React.Component {
             )}
           />
            <Route
-            path={'abelglez97.github.io/home'}
+            path={'/Portfolio-Website-Deploy/home'}
             exact
             render={() => (
               <Home
@@ -101,7 +101,7 @@ class App extends React.Component {
             )}
           />
           <Route
-            path="abelglez97.github.io/about"
+            path="/Portfolio-Website-Deploy/about"
             exact
             render={() => (
               <About
@@ -111,7 +111,7 @@ class App extends React.Component {
             )}
           />
           <Route
-            path="abelglez97.github.io/contact"
+            path="/Portfolio-Website-Deploy/contact"
             exact
             render={() => (
               <Contact
