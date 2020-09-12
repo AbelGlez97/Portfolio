@@ -128,7 +128,7 @@ class Contact extends React.Component {
                     required
                   />
                   <div className="invalid-feedback">
-                    Please, provide a message
+                    Please, provide a message.
                   </div>
                 </Form.Group>
 

@@ -72,7 +72,7 @@ class App extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Linkedin
+                  LinkedIn
                   
                 </a>
                 
