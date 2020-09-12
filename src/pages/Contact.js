@@ -36,7 +36,7 @@ class Contact extends React.Component {
       emailjs
         .sendForm(
           "gmail",
-          "template_3fra3x",
+          "template_3fra3xh",
           event.target,
           "user_6zK3TgsrxxjvRVif83EA4"
         ).then(
