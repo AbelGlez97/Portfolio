@@ -8,7 +8,7 @@ const Card = (props) => {
       onClick = {() => props.onClick(props.item)}
     >
       
-      <img className=" img-fluid cardImage " src={props.item.imageSource} alt=""/>
+      <img className=" img-fluid cardImage" lg = {4} src={props.item.imageSource} alt=""/>
        
       {props.item.selected && (
         <CardInformation
