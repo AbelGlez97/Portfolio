@@ -79,7 +79,8 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          <Route
+          <Container className = "content " fluid={true}>
+          <Route 
             path='/'
             exact
             render={() => (
@@ -109,6 +110,8 @@ class App extends React.Component {
               />
             )}
           />
+          </Container>
+        
           
           
           <Footer />
