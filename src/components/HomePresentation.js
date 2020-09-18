@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 const HomePresentation =(props) => {
   return (
-    <Jumbotron className="bg-transparent jumbotron-fluid p-0 content">
+    <Jumbotron className="bg-transparent jumbotron-fluid p-0 ">
       <Container fluid={true}>
         <Row className="justify-content-center py-4 text-center">
           <Col md={8} sm={12}>

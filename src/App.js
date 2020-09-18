@@ -111,9 +111,6 @@ class App extends React.Component {
             )}
           />
           </Container>
-        
-          
-          
           <Footer />
         </Container>
       </Router>
