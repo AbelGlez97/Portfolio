@@ -61,8 +61,12 @@ code {
 }
 
 .footerPosition {
-  height: calc(100% - 60px);
-
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.content{
+  flex: 1;
 }
 
 
