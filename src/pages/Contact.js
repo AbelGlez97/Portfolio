@@ -73,7 +73,7 @@ class Contact extends React.Component {
       <div>
         <HomePresentation title={this.props.title} />
         <Container fluid={true}>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center content">
             <Col md={7}>
               <Form
                 className="needs-validation"

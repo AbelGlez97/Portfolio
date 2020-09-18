@@ -30,7 +30,7 @@ class CardContainer extends React.Component {
   render() {
     return (
       <Container fluid={true}>
-        <Row className="justify-content-around ">
+        <Row className="justify-content-around content">
           {this.state.items.map((item) => {
             return (
               <Card

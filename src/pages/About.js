@@ -9,7 +9,7 @@ const About = (props) => {
     <div>
       <HomePresentation title={props.title} />
       <Container fluid={true}>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center content">
           <Col md={7}>
             <p>
               Ever since I was a little kid I always wanted to create and bring
