@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import { Row } from "react-bootstrap";
 
 class App extends React.Component {
   constructor(props) {
@@ -79,7 +80,7 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          <Container className = "content " fluid={true}>
+          <Container className = "content " >
           <Route 
             path='/'
             exact
